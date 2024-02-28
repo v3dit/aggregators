@@ -56,11 +56,11 @@ def main():
 
     # Get all file URLs in the "datas" subdirectory
     file_paths = [
-    ('Ananda Cafe', r'C:\\AIML\\HackNiche_DODS\\Streamlit_Interface\\src\\pages\\streamlit_data\\anandacafescoredd.json'),
-    ('Chantilly', r'C:\\AIML\\HackNiche_DODS\\Streamlit_Interface\\src\\pages\\streamlit_data\\ChantillyReviewsscoredd.json'),
-    ('Earth Cafe', r'C:\\AIML\\HackNiche_DODS\\Streamlit_Interface\\src\\pages\\streamlit_data\\earth-cafe-@-juhu-1-juhuscoredd.json'),
-    ('Love and Latte', r'C:\\AIML\\HackNiche_DODS\\Streamlit_Interface\\src\\pages\\streamlit_data\\love-latte-juhuscoredd.json'),
-    ('Ettara', r'C:\\AIML\\HackNiche_DODS\\Streamlit_Interface\\src\\pages\\streamlit_data\\EttaraScored.json')
+    ('Ananda Cafe', r'v3dit/aggregators/src/pages/streamlit_data/anandacafescoredd.json'),
+    ('Chantilly', r'v3dit/aggregators/src/pages/streamlit_data/ChantillyReviewsscoredd.json'),
+    ('Earth Cafe', r'v3dit/aggregators/src/pages/streamlit_data/earth-cafe-@-juhu-1-juhuscoredd.json'),
+    ('Love and Latte', r'v3dit/aggregators/src/pages/streamlit_data/love-latte-juhuscoredd.json'),
+    ('Ettara', r'v3dit/aggregators/src/pages/streamlit_data/EttaraScored.json')
 ]
 
 # Creating a list of tuples with cafe names and DataFrames

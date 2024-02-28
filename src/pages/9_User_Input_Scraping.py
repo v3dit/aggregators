@@ -7,7 +7,7 @@ import time
 # Load the data
 def load_data():
     # Replace this path with the actual path to your cleaned competitors CSV file
-    file_path = 'C:\AIML\HackNiche_DODS\Streamlit_Interface\src\pages\cleaned_competitors_final.csv'
+    file_path = 'v3dit/aggregators/src/pages/cleaned_competitors_final.csv'
     return pd.read_csv(file_path)
 
 data = load_data()

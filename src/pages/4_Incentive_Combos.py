@@ -5,7 +5,7 @@ from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import apriori, association_rules
 import plotly.express as px
 
-df = pd.read_excel('C:\AIML\HackNiche_DODS\Streamlit_Interface\src\pages\streamlit_data\HackNicheDataset.xlsx', 'Sales Dump')
+df = pd.read_excel('v3dit/aggregators/src/pages/streamlit_data/HackNicheDataset.xlsx', 'Sales Dump')
 
 def set_to_str(itemset):
     return ', '.join(list(itemset))

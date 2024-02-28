@@ -44,7 +44,7 @@ from firebase_admin import firestore
 
 # Initialize Firebase Admin with your credentials
 if not firebase_admin._apps :
-    cred = credentials.Certificate('C:\\AIML\\HackNiche_DODS\\Streamlit_Interface\\src\\pages\\streamlit_data\\firestore-test-8d0a8-firebase-adminsdk-he1cx-cedc3e03d3.json')
+    cred = credentials.Certificate('v3dit/aggregators/src/pages/streamlit_data/firestore-test-8d0a8-firebase-adminsdk-he1cx-cedc3e03d3.json')
     firebase_admin.initialize_app(cred)
     
 else:

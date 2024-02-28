@@ -6,9 +6,9 @@ from mlxtend.frequent_patterns import apriori, association_rules
 import plotly.express as px
 
 # Read datanew_df.transpose().rename(columns=new_df['ItemName'])
-recipedf = pd.read_csv('C:\AIML\HackNiche_DODS\Streamlit_Interface\src\pages\streamlit_data\Recipes_encoded.csv')
+recipedf = pd.read_csv('v3dit/aggregators/src/pages/streamlit_data/Recipes_encoded.csv')
 recipedf = recipedf.transpose().rename(columns=recipedf['ItemName'])
-df = pd.read_excel('C:\AIML\HackNiche_DODS\Streamlit_Interface\src\pages\streamlit_data\HackNicheDataset.xlsx', 'Sales Dump')
+df = pd.read_excel('v3dit/aggregators/src/pages/streamlit_data/HackNicheDataset.xlsx', 'Sales Dump')
 st.title('Item Basket Recommender')
 st.write('#### This feature analyzes sales data and provides personalized item recommendations based on user-selected items and allergies. After choosing bought items and allergies, click "Generate Recommendations" to receive tailored suggestions. View bought items and recommendations displayed with buttons for easy navigation.')
 

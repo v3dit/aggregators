@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-df= pd.read_excel(r"C:\AIML\HackNiche_DODS\Streamlit_Interface\src\pages\tsa_data.xlsx")
+df= pd.read_excel(r"v3dit/aggregators/src/pages/tsa_data.xlsx")
 model = Prophet()
 
 df['Date'] = pd.to_datetime(df['Timestamp']).dt.date

@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the dataset
-df = pd.read_excel('C:\AIML\HackNiche_DODS\Streamlit_Interface\src\pages\streamlit_data\HackNicheDataset.xlsx', 'Sales Dump')
+df = pd.read_excel('v3dit/aggregators/src/pages/streamlit_data/HackNicheDataset.xlsx', 'Sales Dump')
 # df = pd.read_excel('EttarraDataset.xlsx', 'Sales Data')
 
 # Function to calculate sales data
